@@ -21,5 +21,4 @@ def list_dwarves(array)
         counter += 1
       end
     end
-  
 end
