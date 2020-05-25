@@ -5,7 +5,7 @@ def greet_characters(array)
       new_array = []
       array.each do |name| 
         
-      new_array << p "hi #{name}"  
+      new_array <<  "hi #{name}"  
  
       binding.pry
       
