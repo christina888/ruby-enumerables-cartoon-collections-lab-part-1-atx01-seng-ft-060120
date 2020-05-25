@@ -4,7 +4,7 @@ def greet_characters(array)
       counter = 0 
       while counter < array.count
         array.each do |name| 
-        puts "hi #{name}"  
+        puts "Hello #{name}!"  
         counter += 1
       end
 end
