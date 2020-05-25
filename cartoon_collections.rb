@@ -1,15 +1,14 @@
 require 'pry'
-new_array = []
+
 def greet_characters(array)
   # Use `each` to enumerate over the provided array
       
       array.each do |name| 
         
-      new_array <<"hi #{name}"  
+      p "hi #{name}"  
  
       binding.pry
     end
-    p new_array
 end
 
 def list_dwarves(array)
