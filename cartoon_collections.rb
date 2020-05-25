@@ -5,7 +5,7 @@ def greet_characters(array)
       
       print name
       
-      }
+    end
 end
 
 def list_dwarves(array)
