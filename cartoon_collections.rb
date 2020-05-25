@@ -8,7 +8,8 @@ def greet_characters(array)
       new_array <<  "hi #{name}"  
  
       binding.pry
-      
+    end
+    p new_array
 end
 
 def list_dwarves(array)
