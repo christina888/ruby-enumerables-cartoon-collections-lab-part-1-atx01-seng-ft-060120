@@ -7,6 +7,7 @@ def greet_characters(array)
  
       binding.pry
       p name
+      
     end
 end
 
