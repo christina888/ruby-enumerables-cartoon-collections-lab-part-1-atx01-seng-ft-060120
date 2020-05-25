@@ -2,10 +2,10 @@ require 'pry'
 
 def greet_characters(array)
   # Use `each` to enumerate over the provided array
-      
+      new_array = []
       array.each do |name| 
         
-      p "hi #{name}"  
+      new_array << p "hi #{name}"  
  
       binding.pry
       
