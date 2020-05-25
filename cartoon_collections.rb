@@ -9,7 +9,7 @@ def greet_characters(array)
  
       binding.pry
       
-    end
+   
 end
 
 def list_dwarves(array)
