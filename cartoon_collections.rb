@@ -6,7 +6,7 @@ def greet_characters(array)
       array.each do |name| 
  
       binding.pry
-      p x
+      p name
       
     end
 end
