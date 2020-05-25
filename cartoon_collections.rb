@@ -4,7 +4,7 @@ def greet_characters(array)
       
       array.each do |name| 
       binding.pry
-      print name
+      pname
     end
 end
 
