@@ -6,7 +6,7 @@ def greet_characters(array)
         array.each do |name| 
         p "hi #{name}"  
         counter += 1
-    end
+      end
 end
 
 def list_dwarves(array)
