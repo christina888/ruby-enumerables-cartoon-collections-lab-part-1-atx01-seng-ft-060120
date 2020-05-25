@@ -1,4 +1,3 @@
-require 'pry'
 
 def greet_characters(array)
   # Use `each` to enumerate over the provided array
@@ -7,7 +6,6 @@ def greet_characters(array)
         
       p "hi #{name}"  
  
-      binding.pry
     end
 end
 
