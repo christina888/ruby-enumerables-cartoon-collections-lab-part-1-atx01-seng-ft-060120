@@ -4,10 +4,9 @@ def greet_characters(array)
   # Use `each` to enumerate over the provided array
       
       array.each do |array[counter]| 
-        counter = 0
+ 
       binding.pry
       p name
-      counter += 1
     end
 end
 
