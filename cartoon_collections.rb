@@ -2,12 +2,11 @@
 def greet_characters(array)
   # Use `each` to enumerate over the provided array
       counter = 0 
+      
       while counter < array.count
       
       array.each do |name| 
-        
       p "hi #{name}"  
-      
       counter += 1
     end
 end
