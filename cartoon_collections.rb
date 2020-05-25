@@ -7,6 +7,7 @@ def greet_characters(array)
         puts "Hello #{name}!"  
         counter += 1
       end
+    end
 end
 
 def list_dwarves(array)
