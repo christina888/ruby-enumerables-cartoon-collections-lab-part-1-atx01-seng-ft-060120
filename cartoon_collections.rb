@@ -1,10 +1,11 @@
 require 'pry'
 def greet_characters(array)
   # Use `each` to enumerate over the provided array
-      
-      array.each do |name| 
+      counter = 0
+      array.each do |array[counter]| 
       binding.pry
       p name
+      counter += 1
     end
 end
 
