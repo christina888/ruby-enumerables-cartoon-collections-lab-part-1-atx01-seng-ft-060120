@@ -16,8 +16,8 @@ def list_dwarves(array)
   
       counter = 0 
       while counter < array.count
-        array.each_with_index do |item, index+1| 
-        puts 
+        array.each_with_index do |item, index| 
+        puts "#{}#{} "
         counter += 1
       end
     end
